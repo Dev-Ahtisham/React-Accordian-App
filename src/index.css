@@ -10,9 +10,53 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: gray;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  width: 40%;
+  height: 70%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 5px 5px 10px;
+  padding: 20px;
+}
+
+.container h2 {
+  width: 100%;
+  text-align: center;
+  padding: 15px 0px;
+  border: 2px solid black;
+}
+
+.singleQuestion {
+  margin-top: 20px;
+  border: 2px solid black;
+  padding: 5px;
+  align-items: center;
+}
+
+.singleQuestion header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.singleQuestion button {
+  border: transparent;
+  background-color: transparent;
+  font-size: 30px;
+  padding-top: 5px;
+}
+
+.singleQuestion p {
+  font-size: 15px;
+  text-align: justify;
 }
